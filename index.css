@@ -1,3 +1,13 @@
+html, body {
+  /* display: -ms-flexbox; */
+  /* display: flex; */
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-color: grey;
+  color: black;
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); */
+}
 /*
  * Globals
  */
@@ -10,6 +20,7 @@ a:hover {
 }
 
 /* Custom default button */
+.img
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -17,19 +28,18 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: yellowgreen;
   border: 0.05rem solid #fff;
+  width: 100%;
+}
+
+.favela {
+  width: 100%;
 }
 
 /*
  * Base structure
  */
 
-html,
-body {
-  height: 100%;
-  background-color: grey;
-  color: black;
-}
-h1 {
+h1, h3 {
   color: white;
 }
 
@@ -40,7 +50,6 @@ p {
 }
 
 .parallax {
-  background-image: url(images/samsul.jpg);
   height: 500px;
 
   /* Create the parallax scrolling effect */
@@ -50,12 +59,12 @@ p {
   background-size: cover;
 }
 
-body {
-  /* display: -ms-flexbox; */
-  /* display: flex; */
-  color: #fff;
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); */
+.bg1 {
+  background-image: url(images/samsul.jpg);
+}
+
+.bg2 {
+  background-image: url(images/images1.jpeg);
 }
 
 .cover-container {
@@ -67,6 +76,7 @@ s
  */
 .masthead {
   margin-bottom: 2rem;
+  /* position: sticky; */
 }
 
 .masthead-brand {
