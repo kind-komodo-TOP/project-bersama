@@ -15,7 +15,7 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color:yellowgreen;
+  background-color: yellowgreen;
   border: 0.05rem solid #fff;
 }
 
@@ -26,7 +26,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color:grey;
+  background-color: grey;
   color: black;
 }
 h1 {
@@ -41,7 +41,7 @@ p {
 
 .parallax {
   background-image: url(images/samsul.jpg);
-  height: 500px; 
+  height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -49,7 +49,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 body {
   /* display: -ms-flexbox; */
@@ -120,7 +119,7 @@ s
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
 }
 
 /* Form Contact */
@@ -129,7 +128,7 @@ s
   margin: auto;
   padding: 50px;
   background: #ffffff;
-  border: 10px solid #f2f2f2;
+  color: black;
 }
 input,
 textarea {
